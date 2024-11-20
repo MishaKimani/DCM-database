@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+
+   .home{
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/homebackground.jpg') ;
+    background-size: cover;
+    overflow-x: hidden;
+             
+          filter: brightness(75%);
+       }
+
+       .homechild{
+
+        /* display: flex;
+        justify-content: baseline; */
+        text-align: center;
+
+        >*{
+        
+        color: white;    
+        font-size: 50px;
+        position: absolute;
+        bottom: 50px;
+        
+        
+    }}
+
+    .homechild:hover{
+
+                >*{
+        
+        
+        font-size: 70px;
+        
+        
+    }
+           }
+
+    .sectiontwo{
+        padding: 20px 20px 20px 20px;
+        border-radius: 5px;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(165, 183, 198);
+               }        
+
+    .header{
+
+                text-align: center;
+                font-size: xx-large;
+            }            
+            
+    .reportpg{
+
+            font-size: x-large;
+            /* display: flex;
+            flex-direction: row; */
+            }            
+
+     .reportpgchild1{
+
+                width: 40%;
+                height: 40%;
+                border-radius: 35px;
+                margin: 0px 30px 50px 0px;
+            }          
+
+            .reportpgchild1:hover{
+
+                width: 43%;
+                height: 43%;
+                border-radius: 35px;
+                margin: 0px 30px 50px 0px;
+            }          
+
+     .reportpgchild2{
+
+                width: 30%;
+                height: 20%;
+                border-radius: 35px;
+                margin: 0px 30px 20px 0px;
+            }  
+
+            .reportpgchild2:hover{
+
+                width: 33%;
+                height: 23%;
+                border-radius: 35px;
+                margin: 0px 30px 20px 0px;
+            }  
+            
+     .reportpgchild3{
+
+                width: 20%;
+                height: 10%;
+                border-radius: 35px;
+            }             
+            
+            .reportpgchild3:hover{
+
+                width: 23%;
+                height: 13%;
+                border-radius: 35px;
+            }             
+    .reporttext{
+        display: flex;
+        justify-content: space-between;
+    }      
+
+    .reportbutton{
+        width: 120px;
+        height: 50px;
+        font-size: small;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(57, 91, 126);
+        color: rgba(255, 255, 255, 0.799);
+        margin: 30px 0px 0px 0px;
+
+    }
+        .reportbutton:hover{
+            width: 150px;
+            height: 70px;
+            font-size: medium;
+              
+    }      

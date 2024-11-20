@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+
+.navbar{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+         
+   }
+
+   .logosearch{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+     
+        }
+
+ 
+
+    .logo{
+
+        width: 100px;
+        height: 100px;
+    }   
+
+
+  .pages{
+      
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px, 20px;
+    font-size: large;
+    >*{
+      padding: 20px;
+
+       }
+    
+  }
+
+  .register{
+
+      width: 100px;
+      height: 50px;
+      border: none;
+        border-radius: 20px;
+        background-color: white;
+        font-size: medium;
+  }
